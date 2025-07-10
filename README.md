@@ -60,3 +60,6 @@ add foreign key (CodeProduct) references  dbo.InventoryProduct (CodeProduct)
 --add foreign key (IdentificationClient) references  dbo.cliente (Identification)
 
 
+repo: https://github.com/Jusgu23/PruebaTecnica
+
+
