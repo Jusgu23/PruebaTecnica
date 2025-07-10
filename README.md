@@ -1,7 +1,9 @@
-Para ejecutar el proyecto sube por estepuerto:
+Para ejecutar el proyecto sube por este puerto:
 
 
  `http://localhost:4200/`
+
+ Srcipt de creacin de tablas.
 
 --Se maneja la Identification como PK ya que las identificaciones son diferentes y no se repiten.
 create table dbo.cliente
