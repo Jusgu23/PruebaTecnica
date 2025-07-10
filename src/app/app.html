@@ -1,0 +1,83 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<style>
+.layout {
+ font-size: 20px;        
+  padding: 10px;          
+  border: 2px solid #000;  
+  border-radius: 5px;  
+}
+
+.Productos {
+ font-size: 20px;        
+  padding: 10px;          
+  border: 2px solid #000;  
+  border-radius: 5px;  
+}
+.titleLayout{ 
+    color: black;
+}
+.titleProduct{
+    color: black;
+}
+
+</style>
+
+<main class="main">
+  <div class="content">
+    <div class="left-side">        
+      <h1>Bienvenido a sus ordenes de pedidos</h1>
+    </div>   
+    <div class="layout">
+      <div class="titleLayout">
+        <h1>Datos de cliente</h1>
+      </div>
+      <input type="text" placeholder = "Numero de orden" >
+        <input type="text" placeholder = "Identificaion de cliente" >
+        <input type="text" placeholder = "Primer nombre de cliente" >
+        <input type="text" placeholder = "Segundo nombre de cliente" >
+        <input type="text" placeholder = "Primer apellido de cliente" >
+        <input type="text" placeholder = "Segundo apellido de cliente" >
+        <input type="text" placeholder = "Direccion de cliente" >
+        <input type="text" placeholder = "Fecha de registro" >
+        <input type="text" placeholder = "Estado" >
+        <input type="text" placeholder = "Direccion de entrga" >
+        <input type="text" placeholder = "Prioridad" >          
+    </div>
+    <div class="Productos">
+       <div class="titleProduct">
+        <h1>Datos de producto</h1>
+      </div>
+        <input type="text" placeholder = "codigo del producto" >
+         <input type="text" placeholder = "Nombre del producto" >
+        <input type="text" placeholder = "Valor unitario del producto" >
+        <input type="text" placeholder = "Cantidad" >
+        <input type="text" placeholder = "valor parcial" >
+        <input type="text" placeholder = "valor total pedido" >
+    </div>
+   
+    <div class="Buttons">
+      <button>Crear </button>
+      <button>Editar </button>
+    </div>
+      
+  </div>
+</main>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+<router-outlet />
